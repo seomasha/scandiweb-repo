@@ -10,6 +10,8 @@ import logo4 from './UI/logo/svg 21.png';
 import sc1 from './UI/logo/shoppingcart/shoppingcart.png';
 import sc2 from './UI/logo/shoppingcart/Vector.png';
 
+import arrow from './UI/logo/arrow.png';
+
 class Header extends Component {
     render() {
         return(
@@ -29,6 +31,7 @@ class Header extends Component {
                         </div>
                         <div>
                             <h1 className={classes.currency}>$</h1>
+                            <h1 className={classes.arrow}>v</h1>
                         </div>
                         <div>
                             <img src={sc1} className={classes.sc1}></img>
