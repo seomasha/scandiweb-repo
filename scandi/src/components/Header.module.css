@@ -1,0 +1,137 @@
+.all{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+}
+
+.navlinks {
+    width: 37px;
+    height: 20px;
+
+    padding: 30px 50px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    /* identical to box height, or 19px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* --c-text */
+
+    color: #1D1F22;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.h1 {
+    padding: 32px;
+}
+
+.h1:hover{
+    color: #1DCF65;
+    border-bottom: 1px solid #1DCF65;
+}
+
+.logo1 {
+    position: absolute;
+    left: 50%;
+    right: 6.6%;
+    top: 3%;
+    bottom: 20.98%;
+
+    background: #1DCF65;
+}
+
+.logo2 {
+    position: absolute;
+    left: 49.9%;
+    right: -0.07%;
+    top: 3.3%;
+    bottom: 0.83%;
+
+    background: linear-gradient(316.98deg, #52D67A 16.88%, #5AEE87 84.04%);
+}
+
+.logo3 {
+    position: absolute;
+    left: 50.5%;
+    right: 29.25%;
+    top: 4.7%;
+    bottom: 29.47%;
+}
+
+.logo4 {
+    position: absolute;
+    left: 51.25%;
+    right: 21.97%;
+    top: 4.2%;
+    bottom: 58.17%;
+
+}
+
+.currency {
+    position: absolute;
+    left: 85%;
+    top: 2%;
+
+
+    width: 12px;
+    height: 29px;
+
+    /* --price-regular-font */
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+
+    display: flex;
+    align-items: flex-end;
+
+    /* --c-black */
+
+    color: #1D1F22;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sc1 {
+    position: absolute;
+    left: 90%;
+    right: 0%;
+    top: 4.2%;
+}
+
+.sc2 {
+    position: absolute;
+    left: 90.35%;
+    top: 6%;
+}
+
+.sc3 {
+    position: absolute;
+    left: 91%;
+    top: 6%;
+}
