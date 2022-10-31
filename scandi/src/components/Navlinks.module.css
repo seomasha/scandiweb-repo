@@ -1,0 +1,40 @@
+.navlinks {
+    width: 37px;
+    height: 20px;
+
+    padding: 30px 50px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    /* identical to box height, or 19px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* --c-text */
+
+    color: #1D1F22;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    cursor: pointer;
+}
+
+.h1 {
+    padding: 32px;
+}
+
+.h1:hover{
+    color: #1DCF65;
+    border-bottom: 1px solid #1DCF65;
+}
